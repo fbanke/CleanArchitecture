@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layered.Presentation", "Layered.Presentation\Layered.Presentation.csproj", "{0282A01C-550D-4E41-8AB3-EEF8EEABD965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layered.Domain", "Layered.Domain\Layered.Domain.csproj", "{6740B578-D779-4F79-AB77-3BD83668A598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layered.Infrastructure", "Layered.Infrastructure\Layered.Infrastructure.csproj", "{D479C369-BF6E-4E27-9E47-117B5B503200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layered", "Layered", "{1157F00D-7EE7-4207-A606-54D394DD81ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0282A01C-550D-4E41-8AB3-EEF8EEABD965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0282A01C-550D-4E41-8AB3-EEF8EEABD965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0282A01C-550D-4E41-8AB3-EEF8EEABD965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0282A01C-550D-4E41-8AB3-EEF8EEABD965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6740B578-D779-4F79-AB77-3BD83668A598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6740B578-D779-4F79-AB77-3BD83668A598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6740B578-D779-4F79-AB77-3BD83668A598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6740B578-D779-4F79-AB77-3BD83668A598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D479C369-BF6E-4E27-9E47-117B5B503200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D479C369-BF6E-4E27-9E47-117B5B503200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D479C369-BF6E-4E27-9E47-117B5B503200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D479C369-BF6E-4E27-9E47-117B5B503200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6740B578-D779-4F79-AB77-3BD83668A598} = {1157F00D-7EE7-4207-A606-54D394DD81ED}
+		{D479C369-BF6E-4E27-9E47-117B5B503200} = {1157F00D-7EE7-4207-A606-54D394DD81ED}
+		{0282A01C-550D-4E41-8AB3-EEF8EEABD965} = {1157F00D-7EE7-4207-A606-54D394DD81ED}
+	EndGlobalSection
+EndGlobal
