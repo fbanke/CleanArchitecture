@@ -23,7 +23,9 @@ namespace Clean.Presentation
         {
 
             services.AddSingleton<IWeatherForecastApi, WeatherForecastApi>();
+            services.AddSingleton<IWindForecastApi, WindForecastApi>();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<WindForecastService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
